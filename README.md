@@ -78,6 +78,8 @@ DONE
 - Map over the data and dynamically render components for each piece of data in the arrays.
 - You will need to import the component that you'll render in the map function.
 
+
+
 **STEP 4**
 
 - Import the wrapper button components into `App.js`
