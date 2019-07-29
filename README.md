@@ -78,16 +78,20 @@ DONE
 - Map over the data and dynamically render components for each piece of data in the arrays.
 - You will need to import the component that you'll render in the map function.
 
-
+DONE
 
 **STEP 4**
 
 - Import the wrapper button components into `App.js`
 - Import the display components into `App.js` as well
 - Compose all the components inside the `App` component to get your calculator rendering on the DOM
+
+DONE
+
 - In each component, start designing things to match the design file
 - Style your project using any of the techniques from the module
 - Don't forget about className vs class on your JSX elements!!
+
 
 **STEP 5 - (STRETCH)**
 It's time to start thinking about functionality. Before getting into this, let's try and plan out all the moving peices you'll need.
