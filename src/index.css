@@ -10,3 +10,112 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+
+button {
+  display: block;
+  color: white;
+  font-size: 45px;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  border: black;
+  border-bottom-style: outset;
+  margin: 5px 15px 5px 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+
+.display-container{
+  display: flex;
+  width: 55%;
+  height: 140px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.display{
+  font-size: 45px;
+  border: black;
+  color: white;
+  margin: 30px;
+}
+
+.buttons-container{
+  display:flex;
+  flex-direction: row;
+}
+
+.specials-numbers-container{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.number-button-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.number-button {
+  background-color: #0C4278;
+
+}
+
+.zero-button {
+  background-color: #0C4278;
+  width: 250px;
+  border-radius: 50px;
+}
+
+.operator-button-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: -15px;
+}
+
+
+.operator-button {
+  background-color: #0A6B99;
+}
+
+.special-button-container{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.special-button {
+  background-color: #19539C;
+
+}
+
+
+.container {
+  background-color: #AE1E39;
+}
