@@ -23,6 +23,7 @@ function App() {
             <Logo/>
 
             <div className="App">
+
                 <div className="display-container">
                     <Display/>
                 </div>

@@ -15,10 +15,10 @@ code {
 button {
   display: block;
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   border-radius: 50%;
-  height: 110px;
-  width: 110px;
+  height: 80px;
+  width: 80px;
   border: black;
   border-bottom-style: outset;
   margin: 5px 15px 5px 15px;
@@ -27,10 +27,10 @@ button {
 .container {
   display: flex;
   flex-direction: column;
-  width: 63%;
-  height: 950px;
   border: black;
   border-radius: 10px;
+  width: 472px;
+  height: 709px;
 }
 
 .logo-container{
@@ -40,8 +40,8 @@ button {
 }
 
 .logo {
-  margin-top: 46px;
-  margin-left: 50px;
+  margin-top: 35px;
+  margin-left: 30px;
 }
 
 .App {
@@ -52,10 +52,10 @@ button {
 
 .display-container{
   display: flex;
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  height: 130px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 100px;
   justify-content: flex-end;
   align-items: center;
   background-color: black;
@@ -63,22 +63,22 @@ button {
 }
 
 .display{
-  font-size: 65px;
+  font-size: 50px;
   border: black;
   color: white;
-  margin: 20px;
+  margin: 10px;
 }
 
 .buttons-container{
   display:flex;
   flex-direction: row;
-  margin: 30px;
+  margin: 20px;
 }
 
 .specials-numbers-container{
   display: flex;
   flex-direction: column;
-  /*width: 45%;*/
+
 }
 
 .number-button-container{
@@ -95,7 +95,7 @@ button {
 
 .zero-button {
   background-color: #0C4278;
-  width: 250px;
+  width: 195px;
   border-radius: 50px;
 }
 
