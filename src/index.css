@@ -10,3 +10,119 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+button {
+  display: block;
+  color: white;
+  font-size: 35px;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border: black;
+  border-bottom-style: outset;
+  margin: 5px 15px 5px 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: black;
+  border-radius: 10px;
+  width: 472px;
+  height: 709px;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.display-container{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 100px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.display{
+  font-size: 50px;
+  border: black;
+  color: white;
+  margin: 10px;
+}
+
+.buttons-container{
+  display:flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.specials-numbers-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.number-button-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.number-button {
+  background-color: #0C4278;
+
+}
+
+.zero-button {
+  background-color: #0C4278;
+  width: 195px;
+  border-radius: 50px;
+}
+
+.operator-button-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: -15px;
+}
+
+
+.operator-button {
+  background-color: #0A6B99;
+}
+
+.special-button-container{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.special-button {
+  background-color: #19539C;
+
+}
+
+
+.container {
+  background-color: #AE1E39;
+}

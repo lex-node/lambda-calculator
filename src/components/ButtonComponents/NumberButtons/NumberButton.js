@@ -1,9 +1,18 @@
 import React from "react";
 
-const NumberButton = () => {
-  return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
-  );
+export const NumberButton = number => {
+    if (number === "0") {
+        return (
+            <button class="zero-button">
+                {number}
+            </button>
+        )
+    } else {
+        return (
+            <button class="number-button">
+                {number}
+            </button>
+        )
+    }
 };
+
